@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanka's Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dela+Gothic+One&family=Poppins:wght@300;700;900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            color: rgb(226, 236, 236);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(3, 0, 5);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        .left {
+            font-size: 3rem;
+        }
+
+        .right {
+            font-size: 1.5rem;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        nav ul li a:hover {
+            color: rgb(240, 240, 245);
+            font-size: 1.05rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 100px 0;
+        }
+
+        .firstsection div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+            margin: 100px 0;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background-color: rgb(146, 78, 123);
+            color: azure;
+            border: 2px;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightsection {
+            width: 80%;
+        }
+
+        .purple {
+            color: #c50f64;
+        }
+
+        #element {
+            color: #b8105e;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 2rem;
+        }
+
+        .secondsection .box {
+            background: honeydew;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .vertical-title {
+            position: relative;
+            color: white;
+            top: 80px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 15px;
+        }
+
+        footer {
+            background-color: #131443;
+            height: 240px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Priyanka's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Skill</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Resume</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <Span class="purple">Priyanka</Span> and I am a Passionate
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume
+                </div>
+                <buttonX class="btn">GitHub
+            </div>
+            </div>
+            </div>
+            <div class="rightsection">
+                <img src="Photo.jpeg" alt="">
+            </div>
+        </section>
+        <section class="secondsection">
+            <h1>Internship & Projects</h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Company-InternPe(March 2023-April 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Created a Clock using minimal of HTML CSS & JavaScript.Also created an Ecommerce site
+                        using HTML,CSS and JavaSript
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Company-Oasis Infobyte(july 2023-Aug 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Created a Reservation System Using Java
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Company-CodSoft(oct 2023-Nov 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Created a Personal Portfolio using HTML & CSS
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        AIC NALANDA(oct 2022-Nov 2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Appreceated for participating in MoStratup program & Selected in the college level
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Personal Project(oct 2021-Nov 2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Appreceated for Creating a Smart Streetlight model using aurduino microprocessor and
+                        circuit designing
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Priyanka's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Service</li>
+                    <li>Location</li>
+                    <li>Education</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Linkdln</li>
+                    <li>GitHub</li>
+                    <li>Mail</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Java Programmer ', 'web developer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
